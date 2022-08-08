@@ -1,0 +1,162 @@
+*{
+    margin: 0; 
+    padding:0;
+    border: 0;
+
+}
+html{
+    font-size: 62.5%;
+}
+header {
+    background-color: rgb(245, 245, 220);
+    color: #031f38; 
+    border: 10px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+h1{
+    font-family: arial;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2.2rem;
+}
+h2{
+    font-family: arial;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.9rem;
+}
+h3{
+    font-size: 1.9rem;
+    font-family: Arial;
+    margin: 0;
+    padding: 5px;
+}
+h4{ 
+    font-size: 1rem;
+    font-family: Arial;
+    margin: 0;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    text-align: center;  
+}
+body{
+    background-color: rgb(255, 192, 203);
+}
+.container{
+    display: block;
+    background-color: rgb(245, 245, 220);
+    width: 95%;
+    box-shadow: 2px 2px #6b8899;
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 90%;
+    min-width: 0;
+    min-height: 0; 
+    margin-top: 60px;
+}
+
+footer{
+    font-family: Arial;
+    color: #0e1111;
+    background-color: rgb(245, 245, 220);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5%;
+}
+p{
+    font-family: Arial;
+    text-align: justify;
+    padding: 10px;
+    size: 1.6rem;
+}
+.text-footer {
+    text-align: center;
+    font-family: arial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+}
+.compre{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    margin-top: 10%;
+    z-index: 1;
+}
+h5{
+    font-family: arial;
+    text-align: center;
+    padding: 1px;
+    font-size: 1.9rem;
+}
+button{
+    font-family: arial;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.9rem;
+    background-color: rgb(172, 195, 214);
+    color: #ece3e3;
+    border: solid;
+}
+#grid-container{
+    margin-top: 5px;
+    background-color: bisque;
+    padding: 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1f));
+    grid-gap: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid div {
+    background-color: #fff;
+    font-family: arial;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2px;
+}
+#formulario{
+    background-color: rgb(94, 180, 94);
+}
+.formulario-contato{
+    font-family: Arial;
+    font-size: 1.8rem;
+    padding: 10px;
+    text-align: left;
+    margin-left: 5%;
+    font-weight: bold;
+}
+input {
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    padding: 5px;
+    
+}
+.dados-formulario{
+    width: 60%;
+}
+nav{
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 1.6rem;
+    margin-right: 2%;
+    word-spacing: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(94, 180, 94);
+    transition: all 400ms ease-in-out;
+}
+a:hover{
+    color: rgb(247, 197, 197); 
+}
